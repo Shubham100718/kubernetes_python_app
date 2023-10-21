@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-config
+data:
+  mysql_database: my_db
+  pma_host: mysql-service
+  pma_port: "3306"
